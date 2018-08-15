@@ -4,9 +4,9 @@ version = "0.1.0"
 authors = ["Deuce314 <>"]
 
 [dependencies]
-rimd = { git = "https://github.com/RustAudio/rimd" }
+rimd = { path = "./rimd/" }
 midir = "0.5"
 [dependencies.cursive]
 version = "0.9"
 default-features = false
-features = ["termion-backend"]
+features = ["blt-backend"]

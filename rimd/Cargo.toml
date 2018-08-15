@@ -1,0 +1,17 @@
+[package]
+name = "rimd"
+description = "Library for handling Midi and reading and writing Standard Midi Files in Rust"
+version = "0.0.2"
+authors = ["Nick Lanham <nick@afternight.org>"]
+homepage = "https://github.com/RustAudio/rimd"
+repository = "https://github.com/RustAudio/rimd"
+documentation = "https://nicklan.github.io/rimd/target/doc/rimd/index.html"
+readme = "README.md"
+keywords = ["midi", "smf", "music", "audio", "mid"]
+license = "MIT"
+
+[dependencies]
+byteorder = "1.2"
+encoding = "0.2.*"
+num-traits = "0.2"
+num-derive = "0.2"
