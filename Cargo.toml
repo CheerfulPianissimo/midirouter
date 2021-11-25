@@ -4,9 +4,10 @@ version = "0.1.0"
 authors = ["Deuce314 <>"]
 
 [dependencies]
-rimd = { path = "./rimd/" }
+rimd = "0.0.1"
 midir = "0.5"
+crossbeam-channel="0.3"
 [dependencies.cursive]
-version = "0.9"
+version = "0.12"
 default-features = false
-features = ["blt-backend"]
+features = ["pancurses-backend"]
