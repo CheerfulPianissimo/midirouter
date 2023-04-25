@@ -8,7 +8,7 @@ Route midi messages between Midi devices on your system. Especially powerful whe
 # Building
 * Clone the repository and run `cargo build` in it's root.
 
-# Downlooad
+# Download
 * Check the releases section for the Windows executable.
 * Tested on a linux distro. Users will have to build from source. *Rust* makes this almost trivial. Install the Rust toolchain, clone/download the repo and `cargo run` in it's root.
 * Not tested on MacOS, but it *should* build and run easily enough, in theory.
